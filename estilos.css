@@ -4,9 +4,6 @@
 	font-family:Impact;
 }
 
-
-
-
 /* Cabezera */
 /*---------------------------------------------------------------------*/
 
@@ -22,7 +19,7 @@
 
 #parCabe{
 	position:absolute;
-	left:6%;
+	left:5%;
 	top:12px;
 	padding-left:25px;
 	text-align:center;
@@ -31,11 +28,11 @@
 
 
 #fotoInicio{
-		width:40px;
-		height:40px;
-		position:absolute;
-		left:3%;
-		top:5px;
+	width:40px;
+	height:40px;
+	position:absolute;
+	left:3%;
+	top:5px;
 }
 
 /*---------------------------------------------------------------------*/
@@ -58,50 +55,29 @@ a:hover {
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
 /*--------------------------------[MENU]-------------------------------------*/
-
-
 
 #menu{
 	width:100%;
 	height:80px;
 	background-color:#5D6D7E;
-	position:relative;
-
-
-
-
 }
 
 #ContenidoMenu{
 	
-	
+	width:100%;
 	color:White;
 	position:absolute;
-	
+	padding-top:20px;
+	font-size:25px;
 
-	padding-top:25px;
-	font-size:20px;
-	padding-left:45%;
-	
 	
 }
 
-
-
-#TablaMenu table, th, td {
-	padding-left: 50px;
-	float:right;
-	
+#tablamenu{
+	width:50%;
 }
+
 
 /*--------------------------------------------------------------------------*/
 
@@ -112,11 +88,8 @@ a:hover {
 	background-position: center;
 	width:100%;
 }
-
-
-
 /*--------------------------------------------------------------------------*/
-/*--------------------Donacion -----------*/
+/*--------------------Donacion --------------------------------------------*/
 
 #susu2{
 	width:100%;
@@ -159,7 +132,8 @@ a:hover {
 #seccion2{
 	margin-top:250px;
 	width:100%;
-	text-align:center;
+	font-family:arial;
+
 }
 
 
@@ -169,32 +143,35 @@ a:hover {
 	font-family:arial;
 }
 
-#seccion2 h2{
-	font-size:20px;
-	font-family:arial;
-}
-
 #seccion2 p{
 	font-size:20px;
 	font-family:arial;
 }
 
 #Dedicacion{
-	font-family:arial;
+	height:650px;
+
+}
+
+#Dedi{
 	margin-left:15%;
 	margin-right:15%;
 }
 
-#tabla2{
-	margin-top:100px;
-	width:100%;
+#tablaDedi{
+	margin-top:50px;
+	height:500px;
+
 
 }
 
 
 .pajaroSeccion1{
-	width:250px;
-	height:270px;
+	width:380px;
+	height:380px;
+	margin-left:20px;
+	margin-right:20px;
+
 }
 
 
